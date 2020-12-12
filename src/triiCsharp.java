@@ -8,7 +8,7 @@ public class triiCsharp {
 
         String input = scanner.nextLine();
         String num = input.replace(".", "");
-        String nun = num.replace("-", "");
+        String nun = num.replace("--", "");
 
         int[] array = new int[nun.length()];
         int sum = 0;
